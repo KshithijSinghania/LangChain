@@ -1,0 +1,36 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ---- Virtual Environment ----
+venv/
+env/
+.venv/
+
+# ---- Environment Variables ----
+.env
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- LangChain / Tracing ----
+.langchain/
+
+# ---- Logs ----
+*.log
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs ----
+.vscode/
+.idea/
+
+# ---- Ollama ----
+.ollama/
